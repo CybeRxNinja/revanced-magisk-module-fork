@@ -6,7 +6,7 @@ parallel-jobs = 1
 # you can use rvmm-config-gen to generate a config
 
 [YouTube]
-enabled = false
+enabled = true
 build-mode = "apk"
 version = "auto"
 included-patches = "'Enable slide to seek' 'Remove player controls background'"
@@ -51,7 +51,7 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
 arch = "arm64-v8a"
 
 [Music-Morphe]
-enabled = false
+enabled = true
 app-name = "Music"
 patches-source = "MorpheApp/morphe-patches"
 cli-source = "MorpheApp/morphe-cli"
@@ -85,7 +85,7 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/photos"
 uptodown-dlurl = "https://google-photos.en.uptodown.com/android"
 
 [Twitter]
-enabled = true
+enabled = false
 build-mode = "apk"
 version = "auto"
 patches-source = "crimera/piko"
