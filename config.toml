@@ -6,7 +6,7 @@ parallel-jobs = 1
 # you can use rvmm-config-gen to generate a config
 
 [YouTube]
-enabled = true
+enabled = false
 build-mode = "apk"
 version = "auto"
 included-patches = "'Enable slide to seek' 'Remove player controls background'"
@@ -41,7 +41,7 @@ uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
 
 [Music]
-enabled = true
+enabled = false
 version = "8.30.54"
 build-mode = "apk"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
@@ -90,7 +90,7 @@ build-mode = "apk"
 version = "auto"
 patches-source = "crimera/piko"
 integrations-source = "crimera/revanced-integrations"
-#cli-source = "revanced/revanced-cli"
+cli-source = "revanced/revanced-cli"
 #included-patches = "'Hide ads' 'Sanitize sharing links' 'Open links with app choose' 'Unlock downloads'"
 #excluded-patches = "''"
 apkmirror-dlurl = "https://apkmirror.com/apk/twitter-inc/twitter"
