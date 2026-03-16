@@ -85,16 +85,17 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/photos"
 uptodown-dlurl = "https://google-photos.en.uptodown.com/android"
 
 [Twitter]
-enabled = false
+enabled = true
 build-mode = "apk"
 version = "auto"
-#patches-source = "revanced/revanced-patches"
+patches-source = "crimera/piko"
+integrations-source = "crimera/revanced-integrations"
 #cli-source = "revanced/revanced-cli"
 #included-patches = "'Hide ads' 'Sanitize sharing links' 'Open links with app choose' 'Unlock downloads'"
 #excluded-patches = "''"
 apkmirror-dlurl = "https://apkmirror.com/apk/twitter-inc/twitter"
 uptodown-dlurl = "https://twitter.en.uptodown.com/android"
-archive-dlurl = "https://dn790002.ca.archive.org/0/items/jhc-apks/apks/com.twitter.android/"
+#archive-dlurl = "https://dn790002.ca.archive.org/0/items/jhc-apks/apks/com.twitter.android/"
 #arch = "all"
 #arch = "arm64-v8a + arm-v7a"
 
