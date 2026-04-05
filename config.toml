@@ -16,7 +16,7 @@ apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 
 [YouTube-Extended]
-enabled = false
+enabled = true
 #app-name = "YouTube"
 version = "19.34.42"
 patches-source = "inotia00/revanced-patches"
@@ -30,7 +30,7 @@ build-mode = "apk"
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube"
 
 [YouTube-Morphe]
-enabled = true
+enabled = false
 app-name = "YouTube"
 patches-source = "MorpheApp/morphe-patches"
 cli-source = "MorpheApp/morphe-cli"
