@@ -6,7 +6,7 @@ parallel-jobs = 1
 # you can use rvmm-config-gen to generate a config
 
 [YouTube]
-enabled = true
+enabled = false
 build-mode = "apk"
 version = "auto"
 included-patches = "'Enable slide to seek' 'Remove player controls background'"
@@ -30,7 +30,7 @@ build-mode = "apk"
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube"
 
 [YouTube-Morphe]
-enabled = false
+enabled = true
 app-name = "YouTube"
 patches-source = "MorpheApp/morphe-patches"
 cli-source = "MorpheApp/morphe-cli"
