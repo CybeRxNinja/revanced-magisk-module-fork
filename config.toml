@@ -6,7 +6,7 @@ parallel-jobs = 1
 # you can use rvmm-config-gen to generate a config
 
 [YouTube]
-enabled = false
+enabled = true
 build-mode = "apk"
 version = "auto"
 included-patches = "'Enable slide to seek' 'Remove player controls background'"
@@ -16,7 +16,7 @@ apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 
 [YouTube-Extended]
-enabled = true
+enabled = false
 #app-name = "YouTube"
 version = "19.34.42"
 patches-source = "inotia00/revanced-patches"
@@ -109,7 +109,7 @@ uptodown-dlurl = "https://twitch.en.uptodown.com/android"
 arch = "both"
 
 [TikTok]
-enabled = true
+enabled = false
 version = "auto"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.zhiliaoapp.musically"
 # uptodown-dlurl = "https://tiktok.en.uptodown.com/android"
