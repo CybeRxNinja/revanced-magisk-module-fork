@@ -87,14 +87,14 @@ uptodown-dlurl = "https://google-photos.en.uptodown.com/android"
 
 [Twitter]
 enabled = true
-patches-source = "crimera/piko"
+patches-source = "inotia00/x-shim"
 cli-source = "MorpheApp/morphe-cli"
 rv-brand = "Piko"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/x-corp/twitter/"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.twitter.android"
 build-mode = "both"
-version = "11.81.0-release.0"
-include-stock = "split"
+#version = "11.81.0-release.0"
+#include-stock = "split"
 
 
 [Twitch]
