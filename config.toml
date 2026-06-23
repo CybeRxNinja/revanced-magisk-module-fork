@@ -30,7 +30,7 @@ build-mode = "apk"
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube"
 
 [YouTube-Morphe]
-enabled = true
+enabled = false
 app-name = "YouTube"
 patches-source = "MorpheApp/morphe-patches"
 cli-source = "MorpheApp/morphe-cli"
@@ -88,7 +88,7 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/photos"
 uptodown-dlurl = "https://google-photos.en.uptodown.com/android"
 
 [Twitter]
-enabled = false
+enabled = true
 build-mode = "apk"
 version = "auto"
 patches-source = "crimera/piko"
